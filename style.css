@@ -1,0 +1,64 @@
+  
+.d3-tip {
+line-height: 1;
+font-weight: bold;
+padding: 12px;
+background: rgba(0, 0, 0, 0.8);
+color: #fff;
+border-radius: 2px;
+}
+
+.bar rect {
+fill: steelblue;
+shape-rendering: crispEdges;
+}
+
+.bar rect:hover{
+ fill: rgba(0,0,0,.8);
+}
+
+.axis path, .axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+td, th {
+padding: 1px 4px;
+border: 1px solid black;
+height: 40px;
+    
+}
+
+.shadowbox {
+  margin: 50px;
+  padding: 8px 12px
+}
+
+.userstable{
+position: static;
+width: 80px;
+height:30px; 
+margin-top: -32%;  
+margin-left:2%;
+border:1px solid #CCCCCC;} 
+ 
+
+.graphNode{position:static;
+width: 80px;
+height:30px; 
+margin-top: 5%;
+margin-left:28%;
+border:1px solid #CCCCCC;}
+
+.graphEdge{position:static;
+width: 80px;
+height:30px; 
+margin-top: 27%;
+margin-left:28%;
+border:1px solid #CCCCCC;}
+
+
+
+
+ 

@@ -1,0 +1,285 @@
+Name,Edges
+test1,2
+"ECZEMA_(Support=1.0%, Confidence=40.0%)",17
+test2,180
+KEGG-HIF-1-signaling-pathway,31
+kegg-adipocytokine-tlr,94
+KEGG-Sphingolipid-signaling-pathway,45
+test6,3
+"Urticaria_(Support=1.0%, Confidence=40.0% (cc))cc",30
+NetPath-IL1-pathlinker-top200paths,75
+"ACNE_(Support=0.75%, Confidence=30.0% (cc))cc",34
+KEGG-Neurotrophin-signaling-pathway,70
+Lovastatin_20784-2017_01-toxcast-signal-family-w0_20-p1_25-c1-updated-casestudy-revigo,138
+"Urticaria_(Support=0.5%, Confidence=40.0% (cc))cc",47
+linker-q_0.5-query_MSN5-path_k_50,49
+kegg-prolactin-neurotrophin,97
+"urticaria_(Support=0.5%, Confidence=30.0%)",95
+KEGG-Wnt-signaling-pathway,59
+Grid Layout,30
+NetPath-T-Cell-Receptor-(TCR)-pathway,160
+NetPath-Leptin-pathlinker-top200paths,67
+"ACNE_(Support=1.0%, Confidence=30.0% (cc))cc",25
+"ECZEMA_(Support=1.0%, Confidence=30.0%)",46
+FilteringByK,10
+"Urticaria_(Support=0.75%, Confidence=40.0% (cc))cc",33
+KEGG-Rap1-signaling-pathway,72
+"Endometriosis_(Support=0.75%, Confidence=40.0%)",113
+27360-89-0:Bisphenol-A-NCIPID-edges,138
+NetPath-Oncostatin-M-(OSM)-pathway,40
+"urticaria_(Support=0.75%, Confidence=30.0%)",69
+KEGG-hsa04371,38
+Visual Style,4
+"Atopic Dermatitis_(Support=1.0%, Confidence=30.0%)",67
+"Endometriosis_(Support=0.75%, Confidence=30.0%)",160
+overlap-graph-60-10000,23
+NetPath-Tyrosine-kinase-with-angiopoietins-(TIE2/TEK)-pathway,42
+kegg-gnrh-tnf,82
+"Pruning Analysis: netpath, EGFR1",231
+kegg-estrogen-hif1,73
+KEGG-hsa04933,34
+"ACNE_(Support=0.75%, Confidence=40.0% (cc))cc",14
+NetPath-Alpha6-Beta4-Integrin-pathway,63
+Wnt-ipa-nmax10-labeled,144
+"Graph 02:45PM on August 16, 2017",3
+"atopic dermatitis_(Support=1.0%, Confidence=20.0% (cc))cc",37
+NetPath-Interleukin-7-(IL-7)-pathway,18
+KEGG-Phosphatidylinositol-signaling-system,28
+kegg-estrogen-tnf,86
+Filtering by K Example,10
+"Urticaria_(Support=0.5%, Confidence=20.0% (cc))cc",70
+KEGG-Prolactin-signaling-pathway,28
+KEGG-TNF-signaling-pathway,45
+NetPath-Inhibitor-of-differentiation-(ID)-pathway,35
+KEGG-Oxytocin-signaling-pathway,37
+KEGG-GnRH-signaling-pathway,36
+"ECZEMA_(Support=0.5%, Confidence=40.0%)",35
+NetPath-Interleukin-10-(IL-10)-pathway,22
+linker-q_0.5-query_FAR1-path_k_50,37
+NetPath-Tumor-necrosis-factor-(TNF)-alpha-pathway,281
+"urticaria_(Support=1.0%, Confidence=20.0%)",91
+MAPK-Wnt-XTalk-family,47
+kegg-hippo-tgfbeta,36
+"Atopic Dermatitis_(Support=0.5%, Confidence=20.0%)",188
+"endometriosis_(Support=1.0%, Confidence=30.0% (cc))cc",33
+"Endometriosis_(Support=0.75%, Confidence=20.0%)",205
+"Eczema_(Support=1.0%, Confidence=30.0% (cc))cc",25
+Gene-gene graph,21
+NetPath-Notch-pathway,93
+NetPath-Wnt-pathlinker-top200paths,58
+KEGG-Thyroid-hormone-signaling-pathway,42
+linker-q_0.5-query_SSA1-path_k_50,39
+"Pruning Analysis: netpath, IL3",70
+docker test ,138
+KEGG-B-cell-receptor-signaling-pathway,39
+(TieDIE Version) WntPathway (NetPath with fbget data),107
+"Endometriosis_(Support=0.5%, Confidence=30.0%)",208
+linker-q_0.5-query_HSL7-path_k_50,34
+"Pruning Analysis: netpath, Wnt",106
+KEGG-Retrograde-endocannabinoid-signaling,11
+NetPath-Advanced-glycation-end-products-(AGE/RAGE)-pathway,23
+NetPath-IL-7-pathlinker-top200paths,56
+24 Neighbors of RN-tre (Merged Isoforms),25
+"Atopic Dermatitis_(Support=0.5%, Confidence=40.0%)",47
+KEGG-Hedgehog-signaling-pathway,23
+KEGG-PPAR-signaling-pathway,4
+NetPath-IL3-pathlinker-top200paths,68
+NetPath-Corticotropin-releasing-hormone-(CRH)-pathway,26
+NetPath-TNF-related-weak-inducer-of-apoptosis-(TWEAK)-pathway,17
+NetPath-Androgen-receptor-(AR)-pathway,155
+"atopic dermatitis_(Support=0.75%, Confidence=40.0% (cc))cc",23
+KEGG-p53-signaling-pathway,28
+"Urticaria_(Support=0.75%, Confidence=20.0% (cc))cc",45
+"ECZEMA_(Support=0.5%, Confidence=20.0%)",156
+Interleukin 1 NetPath Pathway,37
+"Atopic Dermatitis_(Support=1.0%, Confidence=40.0%)",27
+NetPath-IL2-pathlinker-top200paths,56
+Wnt-pathlinker-top200paths-labeled,38
+kegg-prolactin-vegf,29
+"Eczema_(Support=0.5%, Confidence=30.0% (cc))cc",39
+"ACNE_(Support=0.75%, Confidence=40.0%)",26
+NetPath-EGFR1-pathlinker-top200paths,85
+Compound Nodes,6
+"ACNE_(Support=0.75%, Confidence=20.0%)",109
+kegg-estrogen-hippo,56
+"Endometriosis_(Support=0.5%, Confidence=40.0%)",148
+NetPath-Interleukin-5-(IL-5)-pathway,28
+Hippo-TGF-beta-XTalk-family,35
+linker-q_0.5-query_CDC55-path_k_50,45
+linker-q_0.5-query_YDJ1-path_k_50,33
+"endometriosis_(Support=0.5%, Confidence=20.0% (cc))cc",70
+"ACNE_(Support=0.5%, Confidence=30.0% (cc))cc",45
+Wine and Cheese,369
+NetPath-Ghrelin-pathway,40
+"ECZEMA_(Support=0.5%, Confidence=30.0%)",78
+"endometriosis_(Support=1.0%, Confidence=40.0% (cc))cc",30
+"ACNE_(Support=0.5%, Confidence=20.0% (cc))cc",57
+5-Fluorouracil Case Study,129
+Alz STRING network,100
+"Pruning Analysis: netpath, BDNF",72
+KEGG-MAPK-signaling-pathway,118
+toxic-substance-binding-2017_10-seq-sim-x5-string-test4,44
+linker-q_0.5-query_SLN1-path_k_50,46
+NetPath-RANKL-pathlinker-top200paths,70
+NetPath-Interleukin-4-(IL-4)-pathway,57
+kegg-prolactin-wnt,59
+KEGG-cGMP-PKG-signaling-pathway,48
+"Urticaria_(Support=1.0%, Confidence=30.0% (cc))cc",33
+"urticaria_(Support=0.75%, Confidence=40.0%)",53
+KEGG-mTOR-signaling-pathway,60
+NetPath-B-cell-receptor-(BCR)-pathway,131
+"Pruning Analysis: netpath, Prolactin",68
+KEGG-Jak-STAT-signaling-pathway,22
+NetPath-Receptor-activator-of-nuclear-factor-kappa-B-ligand-(RANKL)-pathway,59
+NetPath-Gastrin-pathway,24
+kegg-tgfbeta-gnrh,56
+KEGG-Insulin-signaling-pathway,56
+Popups,3
+Pie Style,5
+Labels Demo,15
+"urticaria_(Support=1.0%, Confidence=40.0%)",45
+NetPath-Hedgehog-pathway,35
+"atopic dermatitis_(Support=0.5%, Confidence=40.0% (cc))cc",27
+NetPath-Transforming-growth-factor-beta-(TGF-beta)-receptor-pathway,197
+"Eczema_(Support=0.75%, Confidence=20.0% (cc))cc",44
+NetPath-Thyroid-stimulating-hormone-(TSH)-pathway,53
+KEGG-cAMP-signaling-pathway,58
+NetPath-BDNF-pathlinker-top200paths,70
+"atopic dermatitis_(Support=1.0%, Confidence=30.0% (cc))cc",31
+linker-q_0.5-query_STB1-path_k_50,41
+KEGG-Epithelial-cell-signaling-in-Helicobacter-pylori-infection,23
+kegg-hif1-neurotrophin,93
+"Eczema_(Support=0.75%, Confidence=40.0% (cc))cc",14
+Edge Types Demo,10
+KEGG-PI3K-Akt-signaling-pathway,73
+KEGG-FoxO-signaling-pathway,40
+"Pruning Analysis: netpath, IL-7",18
+NetPath-Interleukin-6-(IL-6)-pathway,52
+KEGG-hsa04657,7
+NetPath-TNFalpha-pathlinker-top200paths,73
+"ECZEMA_(Support=0.75%, Confidence=20.0%)",120
+kegg-tgfbeta-hif1,70
+"Atopic Dermatitis_(Support=0.5%, Confidence=30.0%)",118
+NetPath-Prolactin-pathlinker-top200paths,69
+"Eczema_(Support=0.5%, Confidence=40.0% (cc))cc",16
+"endometriosis_(Support=0.75%, Confidence=20.0% (cc))cc",45
+Popup Demo,1
+"ECZEMA_(Support=1.0%, Confidence=20.0%)",99
+NetPath-Thymic-stromal-lymphopoietin-(TSLP)-pathway,11
+KEGG-Chemokine-signaling-pathway,49
+KEGG-Wnt-signaling-pathway-with-ranks,52
+Concentric Layout,101
+BorderStyles,9
+Circle Layout,101
+KEGG-AMPK-signaling-pathway,48
+KEGG-NOD-like-receptor-signaling-pathway,99
+"Pruning Analysis: netpath, KitReceptor",76
+"endometriosis_(Support=0.75%, Confidence=30.0% (cc))cc",40
+NetPath-IL6-pathlinker-top200paths,71
+sdsds,52
+Lovastatin_20784_color,132
+"Pruning Analysis: netpath, Leptin",55
+kegg-tnf-tlr,89
+"endometriosis_(Support=1.0%, Confidence=20.0% (cc))cc",37
+NetPath-Follicle-stimulating-hormone-(FSH)-pathway,19
+"Atopic Dermatitis_(Support=0.75%, Confidence=20.0%)",137
+"ACNE_(Support=0.75%, Confidence=20.0% (cc))cc",46
+KEGG-ErbB-signaling-pathway,47
+"atopic dermatitis_(Support=1.0%, Confidence=40.0% (cc))cc",18
+"ECZEMA_(Support=0.75%, Confidence=40.0%)",22
+NetPath-Interleukin-2-(IL-2)-pathway,66
+KEGG-Adipocytokine-signaling-pathway,32
+NetPath-Epidermal-growth-factor-receptor-(EGFR)-pathway,226
+NodeShapes,12
+"Pruning Analysis: netpath, IL1",43
+"Pruning Analysis: netpath, IL2",67
+"Urticaria_(Support=0.5%, Confidence=30.0% (cc))cc",53
+NetPath-TGF_beta_Receptor-pathlinker-top200paths,102
+"Pruning Analysis: netpath, IL6",53
+"endometriosis_(Support=0.75%, Confidence=40.0% (cc))cc",33
+KEGG-Notch-signaling-pathway,20
+NetPath-Interleukin-1-(IL-1)-pathway,41
+linker-q_0.5-query_NRM1-path_k_50,28
+"ACNE_(Support=0.75%, Confidence=30.0%)",68
+kegg-jakstat-neurotrophin,96
+"ECZEMA_(Support=0.75%, Confidence=30.0%)",56
+test15,129
+NetPath-Kit-Receptor-pathway,80
+5-Fluorouracil_20634_v1,180
+NetPath-KitReceptor-pathlinker-top200paths,74
+"atopic dermatitis_(Support=0.75%, Confidence=20.0% (cc))cc",55
+pathogenesis-weighted-test-4,601
+NetPath-Interleukin-3-(IL-3)-pathway,68
+KEGG-RIG-I-like-receptor-signaling-pathway,41
+KEGG-VEGF-signaling-pathway,27
+KEGG-Estrogen-signaling-pathway,30
+"Urticaria_(Support=0.75%, Confidence=30.0% (cc))cc",40
+"urticaria_(Support=0.75%, Confidence=20.0%)",118
+Wnt-Pathway-Reconstruction,58
+sample,2
+blah,180
+"urticaria_(Support=0.5%, Confidence=40.0%)",69
+NetPath-Interleukin-9-(IL-9)-pathway,14
+"Eczema_(Support=1.0%, Confidence=20.0% (cc))cc",33
+NetPath-Leptin-pathway,55
+"Atopic Dermatitis_(Support=0.75%, Confidence=40.0%)",28
+NetPath-Brain-derived-neurotrophic-factor-(BDNF)-pathway,70
+NetPath-Fibroblast-growth-factor-1-(FGF1)-pathway,50
+linker-q_0.5-query_HSL1-path_k_50,48
+KEGG-T-cell-receptor-signaling-pathway,53
+37 Neighbors of RN-tre (5 isoforms),38
+Attribute Order: Color Then Shape,4
+KEGG-Calcium-signaling-pathway,31
+KEGG-TGF-beta-signaling-pathway,41
+NetPath-Prolactin-pathway,70
+NetPath-Wnt-pathway,107
+KEGG-Fc-epsilon-RI-signaling-pathway,28
+"endometriosis_(Support=0.5%, Confidence=30.0% (cc))cc",53
+testing network structure,256
+KEGG-hsa04072,43
+KEGG-Glucagon-signaling-pathway,30
+kegg-nfkb-neurotrophin,71
+KEGG-Hippo-signaling-pathway,50
+"ACNE_(Support=0.5%, Confidence=40.0% (cc))cc",23
+LabelPlacement,9
+test,44
+"atopic dermatitis_(Support=0.5%, Confidence=30.0% (cc))cc",62
+"ACNE_(Support=1.0%, Confidence=40.0%)",23
+kegg-mapk-wnt,51
+kegg-tlr-neurotrophin,80
+ECZMEMA,17
+"ACNE_(Support=1.0%, Confidence=40.0% (cc))cc",11
+netpath-wnt-pathlinker-k100,46
+"endometriosis_(Support=0.5%, Confidence=40.0% (cc))cc",47
+KEGG-Toll-like-receptor-signaling-pathway,51
+Wnt Reconstruction with Compartments (2017-10-01 10:52:59.770899),93
+"atopic dermatitis_(Support=0.5%, Confidence=20.0% (cc))cc",83
+(Node Version) WntPathway (NetPath with fbget data and ttest),107
+"Urticaria_(Support=1.0%, Confidence=20.0% (cc))cc",37
+"urticaria_(Support=1.0%, Confidence=30.0%)",54
+linker-q_0.5-query_TPK2-path_k_50,50
+kegg-prolactin-gnrh,62
+kegg-nfkb-tlr,82
+"Eczema_(Support=1.0%, Confidence=40.0% (cc))cc",11
+kegg-vegf-estrogen,66
+Image Graph,8
+KEGG-Ras-signaling-pathway,68
+"Eczema_(Support=0.5%, Confidence=20.0% (cc))cc",56
+Attribute Order: Shape Then Color,4
+KEGG-NF-kappa-B-signaling-pathway,54
+Tokyo Railways,943
+NetPath-TCR-pathlinker-top200paths,71
+overlap-graph-185-10000,63
+"ACNE_(Support=1.0%, Confidence=20.0%)",90
+linker-q_0.5-query_CDC5-path_k_50,50
+"ACNE_(Support=1.0%, Confidence=30.0%)",59
+"Endometriosis_(Support=0.5%, Confidence=20.0%)",250
+"Atopic Dermatitis_(Support=1.0%, Confidence=20.0%)",109
+KEGG-Adrenergic-signaling-in-cardiomyocytes,41
+NetPath-Interleukin-11-(IL-11)-pathway,12
+"ACNE_(Support=0.5%, Confidence=30.0%)",89
+"ACNE_(Support=1.0%, Confidence=20.0% (cc))cc",33
+"atopic dermatitis_(Support=0.75%, Confidence=30.0% (cc))cc",47
+"Pruning Analysis: netpath, TNFalpha",239
+EdgeStyles,20
+"Pruning Analysis: netpath, RANKL",57

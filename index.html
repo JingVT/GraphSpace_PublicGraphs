@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Public Graphs in GraphSpace</title>
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">
+				
+
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="../../mpg/lib/d3.v3.min.js"></script>
+    <script src="http://d3js.org/d3.v3.js"></script> 
+    <script src="../../mpg/lib/d3.tip.v0.6.3.js"></script>
+
+    <!-- use tip in the graph of nodes and edges -->
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+
+    <script type='text/javascript' src='tableOfUsers.js'></script>
+   
+     <script type='text/javascript' src='plotEdge.js'></script>
+     <script type='text/javascript' src='plotNode.js'></script>
+
+    <link rel='stylesheet' href='style.css'>
+
+  </head>
+
+  <body>
+<!-- 
+The value 285 can be found from the file TotalNumberOfPublicGraphs -->
+<div class="shadowbox">
+  <p>Public Graphs in GraphSpace. Total Number is 285. </p>
+</div>
+
+<!-- div for graph of nodes -->
+<div id="graphNode" class="graphNode"></div>
+
+<!-- div for graph of edges -->
+<div id="graphEdge" class="graphEdge"></div>
+
+<!-- div for table  of users -->
+<div id="userstable" class = "userstable"></div>
+
+
+
+
+    
+
+  </body>
+
+</html>
