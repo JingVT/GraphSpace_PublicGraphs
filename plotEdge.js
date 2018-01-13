@@ -6,9 +6,9 @@ function parser1(d) {
 }
 
 function mpghist1(csvdata) {
-    var binsize = 2;
+    var binsize = 10;
     var minbin = 0 //36;
-    var maxbin = 1500;
+    var maxbin = 5100;
     var numbins = (maxbin - minbin) / binsize;
 
     // whitespace on either side of the bars
@@ -34,7 +34,7 @@ function mpghist1(csvdata) {
 			histdata[bin].meta += "<tr><td>" + d.Name +
 				" " +
 				"</td><td>" + 
-				d.pMPG.toFixed(1) + " edges</td></tr>";
+				d.pMPG.toFixed(0) + " edges</td></tr>";
 		}
     });
 

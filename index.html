@@ -15,24 +15,21 @@
     <script src="http://d3js.org/d3.v3.js"></script> 
     <script src="../../mpg/lib/d3.tip.v0.6.3.js"></script>
 
+
     <!-- use tip in the graph of nodes and edges -->
     <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 
-    <script type='text/javascript' src='tableOfUsers.js'></script>
-   
+     <script type='text/javascript' src='tableOfUsers.js'></script>
      <script type='text/javascript' src='plotEdge.js'></script>
      <script type='text/javascript' src='plotNode.js'></script>
-
+     <!-- <script type='text/javascript' src='plotTotalNumber.js'></script>
+ -->
     <link rel='stylesheet' href='style.css'>
 
   </head>
 
   <body>
-<!-- 
-The value 285 can be found from the file TotalNumberOfPublicGraphs -->
-<div class="shadowbox">
-  <p>Public Graphs in GraphSpace. Total Number is 285. </p>
-</div>
+
 
 <!-- div for graph of nodes -->
 <div id="graphNode" class="graphNode"></div>
@@ -40,8 +37,14 @@ The value 285 can be found from the file TotalNumberOfPublicGraphs -->
 <!-- div for graph of edges -->
 <div id="graphEdge" class="graphEdge"></div>
 
-<!-- div for table  of users -->
+<!-- div for table of users -->
 <div id="userstable" class = "userstable"></div>
+
+<!-- div for number of public graphs -->
+<div id="totalGraph" class="totalGraph">
+  Public Graphs in GraphSpace
+ <!--    <span id="totalNum" class="totalNum" class="totalNum" style="color:black"></span> -->
+</div> 
 
 
 

@@ -31,15 +31,18 @@ NetPath-Oncostatin-M-(OSM)-pathway,40
 KEGG-hsa04371,38
 Visual Style,4
 "Atopic Dermatitis_(Support=1.0%, Confidence=30.0%)",67
-"Endometriosis_(Support=0.75%, Confidence=30.0%)",160
+"Pruning Analysis: netpath-s-t-pruned, RANKL",38
 overlap-graph-60-10000,23
 NetPath-Tyrosine-kinase-with-angiopoietins-(TIE2/TEK)-pathway,42
-kegg-gnrh-tnf,82
+"Pruning Analysis: netpath-s-t-pruned, IL6",50
+"Pruning Analysis: netpath-s-t-pruned, IL1",37
 "Pruning Analysis: netpath, EGFR1",231
-kegg-estrogen-hif1,73
+"Pruning Analysis: netpath-s-t-pruned, IL3",41
+"Pruning Analysis: netpath-s-t-pruned, IL2",53
 KEGG-hsa04933,34
 "ACNE_(Support=0.75%, Confidence=40.0% (cc))cc",14
 NetPath-Alpha6-Beta4-Integrin-pathway,63
+"Pruning Analysis: netpath-s-t-pruned, IL-7",15
 Wnt-ipa-nmax10-labeled,144
 "Graph 02:45PM on August 16, 2017",3
 "atopic dermatitis_(Support=1.0%, Confidence=20.0% (cc))cc",37
@@ -61,8 +64,9 @@ NetPath-Tumor-necrosis-factor-(TNF)-alpha-pathway,281
 MAPK-Wnt-XTalk-family,47
 kegg-hippo-tgfbeta,36
 "Atopic Dermatitis_(Support=0.5%, Confidence=20.0%)",188
-"endometriosis_(Support=1.0%, Confidence=30.0% (cc))cc",33
+"endometriosis_(Support=1.0%, Confidence=40.0% (cc))cc",30
 "Endometriosis_(Support=0.75%, Confidence=20.0%)",205
+kegg-estrogen-hippo,56
 "Eczema_(Support=1.0%, Confidence=30.0% (cc))cc",25
 Gene-gene graph,21
 NetPath-Notch-pathway,93
@@ -77,7 +81,7 @@ KEGG-B-cell-receptor-signaling-pathway,39
 linker-q_0.5-query_HSL7-path_k_50,34
 "Pruning Analysis: netpath, Wnt",106
 KEGG-Retrograde-endocannabinoid-signaling,11
-NetPath-Advanced-glycation-end-products-(AGE/RAGE)-pathway,23
+"Pruning Analysis: netpath-s-t-pruned, TNFalpha",202
 NetPath-IL-7-pathlinker-top200paths,56
 24 Neighbors of RN-tre (Merged Isoforms),25
 "Atopic Dermatitis_(Support=0.5%, Confidence=40.0%)",47
@@ -86,6 +90,7 @@ KEGG-PPAR-signaling-pathway,4
 NetPath-IL3-pathlinker-top200paths,68
 NetPath-Corticotropin-releasing-hormone-(CRH)-pathway,26
 NetPath-TNF-related-weak-inducer-of-apoptosis-(TWEAK)-pathway,17
+"Pruning Analysis: netpath-s-t-pruned, Leptin",43
 NetPath-Androgen-receptor-(AR)-pathway,155
 "atopic dermatitis_(Support=0.75%, Confidence=40.0% (cc))cc",23
 KEGG-p53-signaling-pathway,28
@@ -95,26 +100,29 @@ Interleukin 1 NetPath Pathway,37
 "Atopic Dermatitis_(Support=1.0%, Confidence=40.0%)",27
 NetPath-IL2-pathlinker-top200paths,56
 Wnt-pathlinker-top200paths-labeled,38
+"endometriosis_(Support=0.5%, Confidence=20.0% (cc))cc",70
 kegg-prolactin-vegf,29
 "Eczema_(Support=0.5%, Confidence=30.0% (cc))cc",39
 "ACNE_(Support=0.75%, Confidence=40.0%)",26
 NetPath-EGFR1-pathlinker-top200paths,85
+"Endometriosis_(Support=0.75%, Confidence=30.0%)",160
 Compound Nodes,6
 "ACNE_(Support=0.75%, Confidence=20.0%)",109
-kegg-estrogen-hippo,56
+"Pruning Analysis: netpath-s-t-pruned, Prolactin",57
 "Endometriosis_(Support=0.5%, Confidence=40.0%)",148
 NetPath-Interleukin-5-(IL-5)-pathway,28
 Hippo-TGF-beta-XTalk-family,35
 linker-q_0.5-query_CDC55-path_k_50,45
 linker-q_0.5-query_YDJ1-path_k_50,33
-"endometriosis_(Support=0.5%, Confidence=20.0% (cc))cc",70
+"Pruning Analysis: netpath-s-t-pruned, EGFR1",205
 "ACNE_(Support=0.5%, Confidence=30.0% (cc))cc",45
 Wine and Cheese,369
 NetPath-Ghrelin-pathway,40
 "ECZEMA_(Support=0.5%, Confidence=30.0%)",78
-"endometriosis_(Support=1.0%, Confidence=40.0% (cc))cc",30
+"Pruning Analysis: netpath-s-t-pruned, BDNF",43
 "ACNE_(Support=0.5%, Confidence=20.0% (cc))cc",57
 5-Fluorouracil Case Study,129
+"endometriosis_(Support=1.0%, Confidence=30.0% (cc))cc",33
 Alz STRING network,100
 "Pruning Analysis: netpath, BDNF",72
 KEGG-MAPK-signaling-pathway,118
@@ -127,12 +135,15 @@ KEGG-cGMP-PKG-signaling-pathway,48
 "Urticaria_(Support=1.0%, Confidence=30.0% (cc))cc",33
 "urticaria_(Support=0.75%, Confidence=40.0%)",53
 KEGG-mTOR-signaling-pathway,60
+NetPath-Advanced-glycation-end-products-(AGE/RAGE)-pathway,23
 NetPath-B-cell-receptor-(BCR)-pathway,131
 "Pruning Analysis: netpath, Prolactin",68
 KEGG-Jak-STAT-signaling-pathway,22
 NetPath-Receptor-activator-of-nuclear-factor-kappa-B-ligand-(RANKL)-pathway,59
 NetPath-Gastrin-pathway,24
 kegg-tgfbeta-gnrh,56
+kegg-gnrh-tnf,82
+"Pruning Analysis: netpath-s-t-pruned, Wnt",97
 KEGG-Insulin-signaling-pathway,56
 Popups,3
 Pie Style,5
@@ -202,7 +213,7 @@ NetPath-Interleukin-1-(IL-1)-pathway,41
 linker-q_0.5-query_NRM1-path_k_50,28
 "ACNE_(Support=0.75%, Confidence=30.0%)",68
 kegg-jakstat-neurotrophin,96
-"ECZEMA_(Support=0.75%, Confidence=30.0%)",56
+kegg-estrogen-hif1,73
 test15,129
 NetPath-Kit-Receptor-pathway,80
 5-Fluorouracil_20634_v1,180
@@ -228,6 +239,7 @@ NetPath-Fibroblast-growth-factor-1-(FGF1)-pathway,50
 linker-q_0.5-query_HSL1-path_k_50,48
 KEGG-T-cell-receptor-signaling-pathway,53
 37 Neighbors of RN-tre (5 isoforms),38
+"Atopic Dermatitis_(Support=1.0%, Confidence=20.0%)",109
 Attribute Order: Color Then Shape,4
 KEGG-Calcium-signaling-pathway,31
 KEGG-TGF-beta-signaling-pathway,41
@@ -241,6 +253,7 @@ KEGG-Glucagon-signaling-pathway,30
 kegg-nfkb-neurotrophin,71
 KEGG-Hippo-signaling-pathway,50
 "ACNE_(Support=0.5%, Confidence=40.0% (cc))cc",23
+"ECZEMA_(Support=0.75%, Confidence=30.0%)",56
 LabelPlacement,9
 test,44
 "atopic dermatitis_(Support=0.5%, Confidence=30.0% (cc))cc",62
@@ -274,7 +287,7 @@ overlap-graph-185-10000,63
 linker-q_0.5-query_CDC5-path_k_50,50
 "ACNE_(Support=1.0%, Confidence=30.0%)",59
 "Endometriosis_(Support=0.5%, Confidence=20.0%)",250
-"Atopic Dermatitis_(Support=1.0%, Confidence=20.0%)",109
+"Pruning Analysis: netpath-s-t-pruned, KitReceptor",62
 KEGG-Adrenergic-signaling-in-cardiomyocytes,41
 NetPath-Interleukin-11-(IL-11)-pathway,12
 "ACNE_(Support=0.5%, Confidence=30.0%)",89

@@ -1,4 +1,6 @@
 import urllib2, base64
+#import urllib.request
+import base64
 import json
 import collections
 import operator
@@ -11,13 +13,17 @@ urlBase = "http://www.graphspace.org/api/v1/graphs"
 def getData( param ):
     url_key = urlBase;
     url = url_key + param
+    #request = urllib.request.Request(url)
     request = urllib2.Request(url)
     base64string = base64.b64encode('%s:%s' % ("jcui85@vt.edu", "Cjing_1185426"))
     request.add_header("Authorization", "Basic %s" % base64string)
+    #credentials = ('%s:%s' % ("jcui85@vt.edu", "Cjing_1185426"))
+    #encoded_credentials = base64.b64encode(credentials.encode('ascii'))
+    #request.add_header('Authorization', 'Basic %s' % encoded_credentials.decode("ascii"))
     request.add_header("Content-Type", "application/json") 
     request.add_header("Accept","application/json")
-   #result = urllib2.urlopen(request)
     result = urllib2.urlopen(request)
+    #result = urllib.request.urlopen(request)
 
     return json.load(result)
 
@@ -75,7 +81,7 @@ with open(os.path.join(__location__, "TotalPublicNodes.csv"), "wb") as f:
 with open(os.path.join(__location__, "TotalPublicEdges.csv"), "wb") as f:
    writer = csv.writer(f)
    writer.writerow(['Name', 'Edges'])
-   for key, value in publicNodes.items():
+   for key, value in publicEdges.items():
       writer.writerow([key, value])
 
 

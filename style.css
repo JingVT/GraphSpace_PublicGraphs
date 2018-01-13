@@ -30,34 +30,46 @@ height: 40px;
     
 }
 
-.shadowbox {
-  margin: 50px;
-  padding: 8px 12px
+/*.totalNum{
+  position: static;
+  width: 20px;
+  height: 20px;
+  margin-top:-70px;
+  margin-left: 7px;
+  border: 1px solid #cccccc;
+}
+*/
+.totalGraph {
+  position: static;
+  width: 1000px;
+  height: 20px;
+  margin-top:-70px;
+  margin-left: 10px;
+  border: 0px solid #cccccc;
 }
 
 .userstable{
 position: static;
 width: 80px;
 height:30px; 
-margin-top: -32%;  
-margin-left:2%;
-border:1px solid #CCCCCC;} 
+margin-top: -575px;  
+margin-left: 10px;
+border:0px solid #CCCCCC;} 
  
 
 .graphNode{position:static;
 width: 80px;
 height:30px; 
-margin-top: 5%;
-margin-left:28%;
-border:1px solid #CCCCCC;}
+margin-top: 72px;
+margin-left:450px;
+border:0px solid #CCCCCC;}
 
 .graphEdge{position:static;
 width: 80px;
 height:30px; 
-margin-top: 27%;
-margin-left:28%;
-border:1px solid #CCCCCC;}
-
+margin-top: 500px;
+margin-left:450px;
+border:0px solid #CCCCCC;}
 
 
 
