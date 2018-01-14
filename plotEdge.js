@@ -5,11 +5,13 @@ function parser1(d) {
     return d;
 }
 
+
 function mpghist1(csvdata) {
     var binsize = 10;
-    var minbin = 0 //36;
-    var maxbin = 5100;
-    var numbins = (maxbin - minbin) / binsize;
+    var minbin = 0; 
+    var maxofcsvdata = d3.max(csvdata, function(d){return d.pMPG;});
+    var maxbin = Math.ceil(maxofcsvdata + 0.01 * maxofcsvdata);
+    var numbins = Math.floor((maxbin - minbin) / binsize);
 
     // whitespace on either side of the bars
     var binmargin = .2; 
@@ -18,8 +20,8 @@ function mpghist1(csvdata) {
     var height = 450 - margin.top - margin.bottom;
 
     // Set the limits of the x axis
-    var xmin = minbin - 1
-    var xmax = maxbin + 1
+    var xmin = minbin - 1;
+    var xmax = maxbin + 1;
 
     histdata = new Array(numbins);
     for (var i = 0; i < numbins; i++) {
