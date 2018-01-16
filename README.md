@@ -1,4 +1,4 @@
-# GrapphSpaces_PublicGraphs
+# GraphSpace_PublicGraphs
 
 Please open index.html on IE internet browser to see the result.
 
