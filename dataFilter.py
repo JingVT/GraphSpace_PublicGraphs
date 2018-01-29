@@ -30,10 +30,8 @@ def getData( param ):
 #data for all public graphs stored in GraphSpace
 publicTotal = getData( "?is_public=1&limit=1000" )
 
-
 #TotalNumber of public graphs stored in GraphSpace
 totalNumberOfPublicGraphs = len(publicTotal["graphs"]) #alternative way: publicTotal["total"]
-
 
 #sort users by the number of ownered public graphs in decreasing order
 count = {};
@@ -42,9 +40,7 @@ for element in publicTotal["graphs"]:
        count[element["owner_email"] ] += 1
     else:
        count[element["owner_email"] ] = 1
-
 orderedCount = sorted(count.items(), key = lambda t: t[1], reverse = True)
-
 
 #count the number of nodes and edges in each public graph
 publicNodes = {};
@@ -55,11 +51,9 @@ for element in publicTotal["graphs"]:
     publicNodes[element["name"]] = len(publicEach["graph_json"]["elements"]["nodes"])
     publicEdges[element["name"]] = len(publicEach["graph_json"]["elements"]["edges"])
 
-
 #write result to .csv file
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
-
 
 with open(os.path.join(__location__, "TotalNumberOfPublicGraphs.csv"), "wb") as f:
    writer = csv.writer(f)
@@ -70,13 +64,11 @@ with open(os.path.join(__location__, "TotalPublicGraphs.csv"), "wb") as f:
    writer.writerow(['Graph Owner', 'Number of Public Graphs'])
    writer.writerows(orderedCount)
 
-
 with open(os.path.join(__location__, "TotalPublicNodes.csv"), "wb") as f:
    writer = csv.writer(f)
    writer.writerow(['Name', 'Nodes'])
    for key, value in publicNodes.items():
       writer.writerow([key, value])
-
 
 with open(os.path.join(__location__, "TotalPublicEdges.csv"), "wb") as f:
    writer = csv.writer(f)
