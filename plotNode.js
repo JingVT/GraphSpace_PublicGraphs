@@ -27,7 +27,7 @@ function mpghist(csvdata) {
 		histdata[i] = { numfill: 0, meta: "" };
 	}
 
-	// Fill histdata with y-axis values and meta data
+    // Fill histdata with y-axis values and meta data
     csvdata.forEach(function(d) {
 		var bin = Math.floor((d.pMPG - minbin) / binsize);
 		if ((bin.toString() != "NaN") && (bin < histdata.length)) {
@@ -51,8 +51,8 @@ function mpghist(csvdata) {
 	
     var y = d3.scale.linear()
 	  .domain([0, d3.max(histdata, function(d) { 
-						return d.numfill; 
-						})])
+		return d.numfill; 
+	   })])
 	  .range([height, 0]);
 
     var xAxis = d3.svg.axis()
@@ -69,7 +69,7 @@ function mpghist(csvdata) {
 	  .offset([0, 20])
 	  .html(function(d) {
 	    return '<table id="tiptable">' + d.meta + "</table>";
-	});
+	   });
 
     // put the graph in the "graphNode" div
     var svg = d3.select("#graphNode").append("svg")
