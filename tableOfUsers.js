@@ -1,6 +1,7 @@
 
 
 // plot a table for each user who has updated at leat one graph. Data is sorted according to the number of graphs, in a .csv file 
+// change this in my_branch, test
 d3.csv('TotalPublicGraphs.csv', function (error,data) {
       function tabulate(data, columns) {
 		var table = d3.select('#userstable').append('table')
